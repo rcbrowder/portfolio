@@ -31,9 +31,3 @@
 // 		afterRender: function(){},
 // 	});
 // });
-
-
-// $('#pagepiling').pagepiling({
-//     anchors: ['firstPage', 'secondPage', 'thirdPage', 'fourthPage', 'lastPage'],
-//     menu: '#myMenu'
-// });

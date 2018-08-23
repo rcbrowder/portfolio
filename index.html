@@ -22,8 +22,9 @@
                     anchors: ['page1', 'page2', 'page3', 'page4'],
                     sectionsColor: ['#bfda00', '#2ebe21', '#2C3E50', '#51bec4'],
                     navigation: {
+                        'bulletsColor': '#FFF',
                         'position': 'right',
-                        'tooltips': ['Page 1', 'Page 2', 'Page 3', 'Pgae 4']
+                        'tooltips': ['Info', 'Projects', 'Contact', 'Pgae 4']
                     },
                     afterRender: function() {
                         //playing the video
@@ -39,35 +40,25 @@
     <body>
 
         <div id="pagepiling">
-            <div class="section">
-                <div class="content">
-                    <video autoplay muted loop id="myVideo">
-                        <source src="Organic_Lines_4K_Motion_Background_Loop.mp4" type="video/mp4">
-                    </video>
+            <div class="section" id="section1">
+                <video autoplay muted loop id="myVideo">
+                    <source src="Organic_Lines_4K_Motion_Background_Loop.mp4" type="video/mp4">
+                </video>
+                <div class="layer">
+                    <h1>Chris Browder</h1>
+                    <h3>Software Engineer</h3>
                 </div>
             </div>
             <div class="section">
-                <div class="content">Red
-                </div>
+
             </div>
             <div class="section">
-                <div class="content">Green
-                </div>
+
             </div>
             <div class="section">
-                <div class="content">Yellow
-                </div>
+
             </div>
         </div>
-
-        <ul id="myMenu">
-            <li data-menuanchor="firstPage" class="active"><a href="#firstPage">First section</a></li>
-            <li data-menuanchor="secondPage"><a href="#secondPage">Second section</a></li>
-            <li data-menuanchor="thirdPage"><a href="#thirdPage">Third section</a></li>
-            <li data-menuanchor="fourthPage"><a href="#fourthPage">Fourth section</a></li>
-        </ul>
-
-
 
     </body>
 

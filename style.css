@@ -4,5 +4,29 @@
     position: fixed;
     right: 0;
     bottom: 0;
+    /* height: 100%; */
     width: 100%;
+}
+
+#section1 .layer {
+    position: absolute;
+    z-index: 5;
+    width: 100%;
+    left: 0;
+    top: 30%;
+    height: 100%;
+}
+
+#pp-nav li .active span,
+.pp-slidesNav .active span {
+    background: #fff !important;
+}
+
+.section {
+    text-align: center;
+}
+
+h1, h3 {
+    color: white;
+    font-size: 3em;
 }
