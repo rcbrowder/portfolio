@@ -8,6 +8,15 @@
 
         <script src="index.js"></script>
 
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+        <!-- Bootstrap JavaScript -->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+
         <!-- jQuery -->
         <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
 
@@ -20,11 +29,11 @@
                 $('#pagepiling').pagepiling({
                     menu: '#menu',
                     anchors: ['page1', 'page2', 'page3', 'page4'],
-                    sectionsColor: ['#bfda00', '#2ebe21', '#2C3E50', '#51bec4'],
+                    sectionsColor: ['#33343d', '#2C3E50', '#33343d', '#FDFDFD'],
                     navigation: {
                         'bulletsColor': '#FFF',
                         'position': 'right',
-                        'tooltips': ['Info', 'Projects', 'Contact', 'Pgae 4']
+                        'tooltips': ['Home', 'Info', 'Projects', 'Contact']
                     },
                     afterRender: function() {
                         //playing the video
@@ -40,7 +49,7 @@
     <body>
 
         <div id="pagepiling">
-            <div class="section" id="section1">
+            <div class="section" id="Home">
                 <video autoplay muted loop id="myVideo">
                     <source src="Organic_Lines_4K_Motion_Background_Loop.mp4" type="video/mp4">
                 </video>
@@ -49,13 +58,13 @@
                     <h3>Software Engineer</h3>
                 </div>
             </div>
-            <div class="section">
+            <div class="section" id="About">
 
             </div>
-            <div class="section">
+            <div class="section" id="Projects">
 
             </div>
-            <div class="section">
+            <div class="section" id="Contact">
 
             </div>
         </div>
