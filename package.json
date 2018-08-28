@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/rcbrowder/portfolio/issues"
   },
-  "homepage": "https://github.com/rcbrowder/portfolio#readme"
+  "homepage": "https://github.com/rcbrowder/portfolio#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-sass": "^4.0.1"
+  }
 }
