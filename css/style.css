@@ -45,7 +45,7 @@ h1, h3 {
   max-width: 960px;
   height: 100%;
   margin: auto;
-  margin-right: 10px;
+  padding-right: 35px;
   position: relative; }
 
 .lines {
@@ -92,7 +92,8 @@ h1, h3 {
 
 .chart__title {
   display: block;
-  margin: 0 0 10px;
+  margin: 0 0 10px 7px;
+  text-align: left;
   font-weight: bold;
   opacity: 0;
   animation: 1s anim-lightspeed-in ease forwards; }
