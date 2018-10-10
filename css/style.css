@@ -39,7 +39,17 @@ h1, h3 {
 #AboutRow {
   height: 70%; }
 
-/* Bar Chart Setup */
+#myMenu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 70px;
+  z-index: 70;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  list-style: none; }
+
 .skills {
   width: 100%;
   max-width: 960px;
