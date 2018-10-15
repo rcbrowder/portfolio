@@ -51,7 +51,21 @@ h1, h3 {
     height: 70%;
 }
 
-/* Bar Chart Setup */
+// Top Menu Bar
+
+#myMenu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 70px;
+    z-index: 70;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+// Bar Chart Setup
 
 @mixin stagger-anim-delay($i, $initial-delay, $stagger-delay) {
     @while $i>0 {
@@ -73,7 +87,7 @@ body {
     max-width: 960px;
     height: 100%;
     margin: auto;
-    margin-right: 10px;
+    padding-right: 35px;
     position: relative;
 }
 
@@ -137,7 +151,8 @@ body {
 
 .chart__title {
     display: block;
-    margin: 0 0 10px;
+    margin: 0 0 10px 7px;
+    text-align: left;
 
     font-weight: bold;
 
